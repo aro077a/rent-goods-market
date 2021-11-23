@@ -1,0 +1,57 @@
+.card-item {
+  padding: 0;
+  &__content {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    list-style-type: none;
+    justify-content: flex-start;
+    gap: 22px;
+    .item-content {
+      .item-inner {
+        display: flex;
+      }
+    }
+    &__more {
+      cursor: pointer;
+    }
+  }
+  &__popover-menu {
+    max-width: 131px;
+  }
+  &__edit,
+  &__remove {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+    padding: 4px 12px;
+    list-style-type: none;
+    svg {
+      fill: var(--base-80);
+    }
+    .item-link {
+      .item-content {
+        padding: 0;
+        .item-inner {
+          padding: 0;
+          &::before {
+            content: none;
+          }
+        }
+      }
+    }
+  }
+  &__info {
+    width: 65%;
+    margin: 0 auto 16px;
+
+    p {
+      margin: 5px 0;
+    }
+  }
+}
+
+.popover-backdrop.backdrop-in {
+  opacity: 0;
+}

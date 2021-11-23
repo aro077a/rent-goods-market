@@ -1,0 +1,87 @@
+.mixins-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  &__mixin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+
+    p {
+      margin: 0;
+    }
+
+    button {
+      .body-6();
+
+      background: none;
+      outline: none;
+      border: 1px solid var(--brand-primary-40);
+      color: var(--brand-primary-60);
+      border-radius: 12px;
+      padding: 12px;
+      width: 160px;
+      cursor: pointer;
+      transition: all linear 100ms;
+
+      &:hover {
+        color: white;
+        background: var(--brand-primary-60);
+        border-color: var(--brand-primary-60);
+      }
+    }
+  }
+}
+
+// TITLE
+.title-5 {
+  .title-5();
+}
+
+.title-8 {
+  .title-8();
+}
+
+// SUBTITLE
+.subtitle-1 {
+  .subtitle-1();
+}
+
+.subtitle-3 {
+  .subtitle-3();
+}
+
+.subtitle-4 {
+  .subtitle-4();
+}
+
+// BODY
+.body-3 {
+  .body-3();
+}
+
+.body-5 {
+  .body-5();
+}
+
+.body-6 {
+  .body-6();
+}
+
+// SUBHEAD
+.subhead-2 {
+  .subhead-2();
+}
+
+.subhead-4-m {
+  .subhead-4-m();
+}
+
+// CAPTION
+.caption-2 {
+  .caption-2();
+}

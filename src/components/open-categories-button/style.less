@@ -1,0 +1,39 @@
+.navbar a.open-categories-button {
+  border-radius: 27px;
+  height: 40px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  &:hover {
+    background-color: var(--base-10);
+  }
+}
+
+.navbar a.open-categories-button:before {
+  content: none !important;
+}
+
+.open-categories-button {
+  transition: all 0.3s;
+
+  span {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: var(--base-110);
+    margin: 0px 10px;
+  }
+
+  &.opened {
+    background: var(--base-10);
+    .icon {
+      transform: rotateX(180deg);
+    }
+  }
+
+  .icon {
+    transition: all 0.3s;
+    font-size: 28px;
+  }
+}

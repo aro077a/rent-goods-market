@@ -1,0 +1,96 @@
+.register-popup {
+  border-radius: 16px 16px 0 0 !important;
+
+  &__title {
+    .title-5();
+
+    margin: 0 0 16px 0;
+    padding: 0;
+  }
+
+  .navbar {
+    height: 56px !important;
+  }
+
+  &-close {
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  &__bottom-btns {
+    position: initial;
+  }
+
+  .phone-inputs {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 4px;
+
+    &__code {
+      max-width: 136px;
+    }
+
+    &__number {
+      margin-left: 8px;
+    }
+  }
+
+  &__item {
+    list-style: none;
+    margin-bottom: 24px;
+  }
+
+  &__country-select {
+    .item-content,
+    .item-inner {
+      padding: 0;
+    }
+  }
+
+  @media screen and (min-width: 630px) {
+    border-radius: 26px !important;
+    width: calc(var(--f7-popup-tablet-width) / 1.5) !important;
+    margin-left: calc(-1 * calc(var(--f7-popup-tablet-width) / 1.5) / 2) !important;
+  }
+}
+
+.register-form-list,
+.register-form-block {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.register-form-block {
+  padding: 0 32px;
+}
+
+.register-form-list {
+  display: none;
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+.form-list-visible {
+  display: block;
+}
+
+.accept-checkbox {
+  margin-top: 30px;
+}
+
+.accept-checkbox .item-title {
+  white-space: normal !important;
+  overflow: auto !important;
+  text-overflow: inherit !important;
+  display: block;
+}

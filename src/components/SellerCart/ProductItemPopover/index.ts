@@ -1,0 +1,1 @@
+export { ProductItemPopover } from "./ProductItemPopover";

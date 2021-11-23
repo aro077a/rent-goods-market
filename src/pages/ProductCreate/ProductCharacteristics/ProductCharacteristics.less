@@ -1,0 +1,55 @@
+@import "../styles.less";
+
+//reusable input styles
+.inputProps {
+  background-color: var(--base-20);
+  border-radius: 10px;
+  list-style-type: none;
+}
+
+.characteristics-wrapper {
+  &__inputs {
+    padding: 0;
+    .custom-style {
+      margin-top: 24px;
+    }
+    .accordion-item {
+      padding: 0;
+      .accordion-item-content {
+        background-color: var(--base-0);
+        box-sizing: border-box;
+        box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        .item-content {
+          padding: 0 18px;
+          .item-inner {
+            span {
+              svg {
+                border-radius: 50%;
+              }
+            }
+            &::after {
+              content: none;
+              .item-title {
+                color: var(--base-80);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &__nested-inputs {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+    margin: 0 0 24px 0;
+    position: unset;
+  }
+  &__color-input {
+    .inputProps;
+    padding: 0;
+    color: var(--base-80);
+  }
+}

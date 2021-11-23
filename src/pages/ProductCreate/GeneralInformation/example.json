@@ -1,0 +1,426 @@
+{
+  "body": [
+    {
+      "activeFeatures": {
+        "additionalProp1": [
+          {
+            "expireDate": "2021-11-16T10:35:35.179Z",
+            "startAt": {
+              "hour": 0,
+              "minute": 0,
+              "nano": 0,
+              "second": 0
+            },
+            "startDate": "2021-11-16T10:35:35.179Z",
+            "typeCode": "string",
+            "typeDescription": "string",
+            "typeName": "string",
+            "typeUid": "string",
+            "uid": "string"
+          }
+        ],
+        "additionalProp2": [
+          {
+            "expireDate": "2021-11-16T10:35:35.179Z",
+            "startAt": {
+              "hour": 0,
+              "minute": 0,
+              "nano": 0,
+              "second": 0
+            },
+            "startDate": "2021-11-16T10:35:35.179Z",
+            "typeCode": "string",
+            "typeDescription": "string",
+            "typeName": "string",
+            "typeUid": "string",
+            "uid": "string"
+          }
+        ],
+        "additionalProp3": [
+          {
+            "expireDate": "2021-11-16T10:35:35.179Z",
+            "startAt": {
+              "hour": 0,
+              "minute": 0,
+              "nano": 0,
+              "second": 0
+            },
+            "startDate": "2021-11-16T10:35:35.179Z",
+            "typeCode": "string",
+            "typeDescription": "string",
+            "typeName": "string",
+            "typeUid": "string",
+            "uid": "string"
+          }
+        ]
+      },
+      "address": {
+        "city": "string",
+        "countryCode": "string",
+        "firstAddressLine": "string",
+        "postalCode": "string",
+        "secondAddressLine": "string",
+        "state": "string"
+      },
+      "allowedCountries": ["LV", "EE", "LT", "DE"],
+      "category": "string",
+      "categoryExternalUrl": "string",
+      "categoryName": "string",
+      "color": "string",
+      "coordinates": "string",
+      "currencyCode": "string",
+      "customField1": "string",
+      "customField2": "string",
+      "customField3": "string",
+      "dealType": "RENT",
+      "declineReason": "string",
+      "declinedBy": "string",
+      "deliveryMethods": [
+        {
+          "createDate": "2021-11-16T10:35:35.179Z",
+          "name": "string",
+          "options": [
+            {
+              "countries": [
+                {
+                  "code": "string",
+                  "excluded": true,
+                  "name": "string"
+                }
+              ],
+              "createDate": "2021-11-16T10:35:35.179Z",
+              "currencyCode": "string",
+              "deliveryMethodUid": "string",
+              "deliveryTimeDaysMax": 0,
+              "deliveryTimeDaysMin": 0,
+              "description": "string",
+              "pickupAddress": {
+                "city": "string",
+                "coordinates": "string",
+                "countryCode": "string",
+                "firstAddressLine": "string",
+                "placeId": "string",
+                "postalCode": "string",
+                "secondAddressLine": "string",
+                "state": "string"
+              },
+              "price": 0,
+              "uid": "string",
+              "updateDate": "2021-11-16T10:35:35.179Z"
+            }
+          ],
+          "type": "DELIVERY",
+          "typeName": "string",
+          "uid": "string",
+          "updateDate": "2021-11-16T10:35:35.179Z"
+        }
+      ],
+      "description": "string",
+      "disallowedCountries": ["LV", "EE", "LT", "DE"],
+      "discountedPrice": 0,
+      "expirationDate": "2021-11-16T10:35:35.179Z",
+      "externalUid": "string",
+      "externalUrl": "string",
+      "featureCodes": ["string"],
+      "hashtags": "string",
+      "imageThumbnailUrl1": "string",
+      "imageThumbnailUrl2": "string",
+      "imageThumbnailUrl3": "string",
+      "imageThumbnailUrl4": "string",
+      "imageThumbnailUrl5": "string",
+      "imageUrl1": "string",
+      "imageUrl2": "string",
+      "imageUrl3": "string",
+      "imageUrl4": "string",
+      "imageUrl5": "string",
+      "inStock": true,
+      "isWishlist": true,
+      "languageCode": "string",
+      "localizations": [
+        {
+          "category": "string",
+          "color": "string",
+          "customField1": "string",
+          "customField2": "string",
+          "customField3": "string",
+          "description": "string",
+          "empty": true,
+          "language": "string",
+          "name": "string",
+          "originalLanguageCode": "string",
+          "shortDescription": "string",
+          "size": "string",
+          "weightUnit": "string"
+        }
+      ],
+      "manufacturer": "string",
+      "manufacturerPartNumber": "string",
+      "model": "string",
+      "name": "string",
+      "originalLanguageCode": "string",
+      "ownerUid": "string",
+      "pickupAllowed": true,
+      "placeId": "string",
+      "price": 0,
+      "productDate": "2021-11-16T10:35:35.179Z",
+      "productParams": [
+        {
+          "code": "string",
+          "mandatory": true,
+          "name": "string",
+          "validationRegExp": "string"
+        }
+      ],
+      "publishDate": "2021-11-16T10:35:35.179Z",
+      "purchasable": true,
+      "quantity": 0,
+      "quantityReserved": 0,
+      "rentOptions": {
+        "dayRentEndTime": {
+          "hour": 0,
+          "minute": 0,
+          "nano": 0,
+          "second": 0
+        },
+        "dayRentStartTime": {
+          "hour": 0,
+          "minute": 0,
+          "nano": 0,
+          "second": 0
+        },
+        "dayRentTimezone": 0,
+        "deposit": 0,
+        "minPeriod": 0,
+        "period": "HOUR"
+      },
+      "returnAccepted": true,
+      "sale": {
+        "accountUid": "string",
+        "activeProducts": 0,
+        "creationDate": "2021-11-16T10:35:35.179Z",
+        "disabledProducts": 0,
+        "discountAmountFixed": 0,
+        "discountAmountPercent": 0,
+        "endDate": "2021-11-16T10:35:35.179Z",
+        "modificationDate": "2021-11-16T10:35:35.179Z",
+        "name": "string",
+        "products": [
+          {
+            "category": "string",
+            "categoryName": "string",
+            "creationDate": "2021-11-16T10:35:35.179Z",
+            "currencyCode": "string",
+            "description": "string",
+            "discountedPrice": 0,
+            "error": "string",
+            "imageThumbnailUrl1": "string",
+            "modificationDate": "2021-11-16T10:35:35.179Z",
+            "name": "string",
+            "price": 0,
+            "productUid": "string",
+            "salePrice": 0,
+            "saleUid": "string"
+          }
+        ],
+        "roundingType": "00",
+        "sourceSaleUid": "string",
+        "startDate": "2021-11-16T10:35:35.179Z",
+        "status": "NEW",
+        "uid": "string",
+        "validDiscountAmountRangeFrom": 0,
+        "validDiscountAmountRangeTo": 0
+      },
+      "salePrice": 0,
+      "seller": {
+        "email": "string",
+        "iban": "string",
+        "imageUrl": "string",
+        "lastLoginDate": "2021-11-16T10:35:35.179Z",
+        "name": "string",
+        "phone": "string",
+        "uid": "string"
+      },
+      "sellerEmail": "string",
+      "sellerIban": "string",
+      "sellerPhone": "string",
+      "sellerUid": "string",
+      "shippingAllowed": true,
+      "shortDescription": "string",
+      "size": "string",
+      "status": "DRF",
+      "store": {
+        "account": {
+          "companyLegalAddress": "string",
+          "companyName": "string",
+          "companyRegistrationNumber": "string",
+          "countryCode": "string",
+          "creationDate": "2021-11-16T10:35:35.179Z",
+          "isAllowedSellUsingMarketServices": true,
+          "lastLoginDate": "2021-11-16T10:35:35.179Z",
+          "modificationDate": "2021-11-16T10:35:35.179Z",
+          "name": "string",
+          "profilePictureUrl": "string",
+          "surname": "string",
+          "uid": "string"
+        },
+        "accountUid": "string",
+        "code": "string",
+        "creationDate": "2021-11-16T10:35:35.179Z",
+        "description": "string",
+        "email": "string",
+        "homepage": "string",
+        "homepageConfig": {
+          "accountUid": "string",
+          "banner": {
+            "creationDate": "2021-11-16T10:35:35.179Z",
+            "desktopImageUrl": "string",
+            "mobileImageUrl": "string",
+            "modificationDate": "2021-11-16T10:35:35.179Z",
+            "targetUrl": "string",
+            "title": "string"
+          },
+          "creationDate": "2021-11-16T10:35:35.179Z",
+          "draft": true,
+          "modificationDate": "2021-11-16T10:35:35.179Z",
+          "products": [
+            {
+              "creationDate": "2021-11-16T10:35:35.179Z",
+              "imageThumbnailUrl1": "string",
+              "modificationDate": "2021-11-16T10:35:35.179Z",
+              "productCurrencyCode": "string",
+              "productDescription": "string",
+              "productDiscountedPrice": 0,
+              "productName": "string",
+              "productPrice": 0,
+              "productSalePrice": 0,
+              "productUid": "string",
+              "sortOrder": 0,
+              "storeHomepageUid": "string"
+            }
+          ],
+          "status": "string",
+          "storeUid": "string",
+          "uid": "string",
+          "widgets": [
+            {
+              "category": "string",
+              "categoryName": "string",
+              "creationDate": "2021-11-16T10:35:35.179Z",
+              "modificationDate": "2021-11-16T10:35:35.179Z",
+              "rootCategoryCode": "string",
+              "rootCategoryName": "string",
+              "saleDiscountAmountFixed": 0,
+              "saleDiscountAmountPercent": 0,
+              "saleEndDate": "2021-11-16T10:35:35.179Z",
+              "saleName": "string",
+              "saleStartDate": "2021-11-16T10:35:35.179Z",
+              "saleUid": "string",
+              "sortOrder": 0,
+              "storeHomepageUid": "string",
+              "type": "string",
+              "uid": "string"
+            }
+          ]
+        },
+        "imageUrl": "string",
+        "links": [
+          {
+            "uid": "string",
+            "url": "string"
+          }
+        ],
+        "modificationDate": "2021-11-16T10:35:35.179Z",
+        "name": "string",
+        "originalDescription": "string",
+        "phone": "string",
+        "productCategories": [
+          {
+            "categoryCode": "string",
+            "categoryName": "string",
+            "color": "string",
+            "dependency": "string",
+            "iconCode": "string",
+            "imageUrl": "string",
+            "pickUpAllowed": true,
+            "productCount": 0,
+            "returnAllowed": true,
+            "seoText": "string",
+            "shippingAllowed": true,
+            "sortOrder": 0,
+            "thumbnailUrl": "string"
+          }
+        ],
+        "products": [null],
+        "sales": [
+          {
+            "accountUid": "string",
+            "activeProducts": 0,
+            "creationDate": "2021-11-16T10:35:35.179Z",
+            "disabledProducts": 0,
+            "discountAmountFixed": 0,
+            "discountAmountPercent": 0,
+            "endDate": "2021-11-16T10:35:35.179Z",
+            "modificationDate": "2021-11-16T10:35:35.179Z",
+            "name": "string",
+            "products": [
+              {
+                "category": "string",
+                "categoryName": "string",
+                "creationDate": "2021-11-16T10:35:35.179Z",
+                "currencyCode": "string",
+                "description": "string",
+                "discountedPrice": 0,
+                "error": "string",
+                "imageThumbnailUrl1": "string",
+                "modificationDate": "2021-11-16T10:35:35.179Z",
+                "name": "string",
+                "price": 0,
+                "productUid": "string",
+                "salePrice": 0,
+                "saleUid": "string"
+              }
+            ],
+            "roundingType": "00",
+            "sourceSaleUid": "string",
+            "startDate": "2021-11-16T10:35:35.179Z",
+            "status": "NEW",
+            "uid": "string",
+            "validDiscountAmountRangeFrom": 0,
+            "validDiscountAmountRangeTo": 0
+          }
+        ],
+        "status": "string",
+        "statusDescription": "string",
+        "storeLanguage": "string",
+        "uid": "string"
+      },
+      "type": "string",
+      "uid": "string",
+      "video": {
+        "enabled": true,
+        "id": "string",
+        "type": "YOUTUBE"
+      },
+      "viewCount": 0,
+      "weight": 0,
+      "weightUnit": "string",
+      "wishCount": 0
+    }
+  ],
+  "count": 0,
+  "errorData": {
+    "code": 0,
+    "message": "string",
+    "parameters": ["string"],
+    "requestUid": "string"
+  },
+  "offset": 0,
+  "successful": true,
+  "totalCount": 0,
+  "warningData": {
+    "code": 0,
+    "message": "string",
+    "parameters": ["string"],
+    "requestUid": "string"
+  }
+}

@@ -1,0 +1,29 @@
+.create-page {
+  .navbar-inner {
+    border-bottom: 1px solid var(--base-20);
+    .right {
+      padding-right: 26px;
+      .next-button {
+        width: 86px;
+        height: 40px;
+        border-radius: 26px;
+        margin-top: 0;
+        background-color: var(--danger-90);
+      }
+    }
+  }
+  .page-content {
+    .products {
+      display: grid;
+      grid-template-columns: 22% 66%;
+      margin: 0;
+      max-width: none;
+      &__content {
+        width: 40% !important;
+        min-width: 464px;
+        max-width: max-content;
+        margin-top: 24px;
+      }
+    }
+  }
+}

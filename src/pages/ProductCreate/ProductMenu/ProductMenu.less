@@ -1,0 +1,31 @@
+.listProps {
+  padding-left: 64px !important;
+  &::after,
+  ::before {
+    content: none !important;
+  }
+}
+.menu {
+  &__step {
+    width: 100%;
+    min-width: 280px;
+    svg {
+      position: absolute;
+      left: 10%;
+    }
+    &--list {
+      .listProps;
+      color: var(--base-60);
+    }
+    &--active {
+      .listProps;
+      border-radius: 0 16px 16px 0;
+      background-color: var(--base-20);
+      color: var(--base-110);
+      svg {
+        position: absolute;
+        left: 10%;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.about-popup {
+  --f7-popup-border-radius: 15px;
+  --f7-popup-tablet-border-radius: 15px;
+
+  .logo-container {
+    text-align: center;
+  }
+
+  .logo {
+    margin: 0 auto;
+    width: 98px;
+    height: 98px;
+  }
+
+  .name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 24px;
+  }
+
+  .version {
+    color: var(--base-80);
+  }
+
+  .copyright {
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+  }
+}
+
+@media (min-height: 630px) and (min-width: 630px) {
+  .about-popup {
+    width: calc(var(--f7-popup-tablet-width) / 1.5) !important;
+    height: calc(var(--f7-popup-tablet-height) / 1) !important;
+    margin-left: calc(
+      -1 * calc(var(--f7-popup-tablet-width) / 1.5) / 2
+    ) !important;
+    margin-top: calc(
+      -1 * calc(var(--f7-popup-tablet-height) / 1) / 2
+    ) !important;
+  }
+}

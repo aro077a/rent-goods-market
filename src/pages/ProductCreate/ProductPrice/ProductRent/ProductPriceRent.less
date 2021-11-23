@@ -1,0 +1,58 @@
+@import "../../styles.less";
+
+.price-rent {
+  display: flex;
+  flex-direction: column;
+  .toolbar {
+    .toolbar-inner {
+      gap: 8px;
+      justify-content: unset;
+      .tab-link {
+        background-color: var(--base-20);
+        color: var(--base-110);
+        border-radius: 100px;
+        padding: 0 16px;
+        width: unset;
+        height: 80%;
+      }
+      .tab-link-active {
+        background-color: var(--danger-90);
+        color: var(--base-0);
+        border-radius: 100px;
+      }
+      .tab-link-highlight {
+        display: none;
+      }
+    }
+    &::after,
+    &::before {
+      content: none;
+    }
+  }
+  &__subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--base-110);
+    margin-left: 0;
+  }
+  p {
+    color: var(--base-80);
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .tabs {
+    .tab-active {
+      margin-top: 54px;
+      padding: 0;
+    }
+    .page-content {
+      .rent-inputs-block {
+        width: 50%;
+        min-width: 464px;
+        position: relative;
+        z-index: 0;
+      }
+    }
+  }
+}

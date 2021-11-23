@@ -1,0 +1,24 @@
+.verify-account-popup {
+  --f7-popup-border-radius: 15px;
+  --f7-popup-tablet-border-radius: 15px;
+
+  --f7-navbar-title-font-size: 24px;
+
+  p svg {
+    position: absolute;
+    margin-left: 8px;
+  }
+}
+
+@media (min-height: 630px) and (min-width: 630px) {
+  .verify-account-popup {
+    width: calc(var(--f7-popup-tablet-width) / 1.5) !important;
+    height: calc(var(--f7-popup-tablet-height) / 1.7) !important;
+    margin-left: calc(
+      -1 * calc(var(--f7-popup-tablet-width) / 1.5) / 2
+    ) !important;
+    margin-top: calc(
+      -1 * calc(var(--f7-popup-tablet-height) / 1.7) / 2
+    ) !important;
+  }
+}

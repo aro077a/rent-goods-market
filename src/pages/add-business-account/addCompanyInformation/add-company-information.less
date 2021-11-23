@@ -1,0 +1,71 @@
+#add_company_information_page {
+  .list {
+    z-index: auto; // for phone-code dropdown
+  }
+
+  .main-content {
+    > h1 {
+      margin-bottom: 16px;
+
+      @media screen and (max-width: 767px) {
+        margin-bottom: 12px;
+      }
+    }
+
+    > p {
+      margin-bottom: 24px;
+    }
+
+    .block-inputs {
+      margin-bottom: 32px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      > h2,
+      > p {
+        margin-bottom: 24px;
+      }
+
+      .h2-contacts {
+        margin-bottom: 8px;
+      }
+    }
+
+    .custom-dropdown {
+      margin-bottom: 24px;
+
+      &.error {
+        margin-bottom: 6px;
+      }
+    }
+
+    .custom-dropdown-row {
+      flex: 1;
+    }
+
+    .phone-code-select {
+      width: 100%;
+      max-width: 135px;
+    }
+  }
+
+  .select-map-button {
+    margin-bottom: 16px;
+
+    .icon {
+      margin-left: 0;
+    }
+  }
+
+  .privacy {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+
+    .icon-checkbox {
+      margin-right: 16px;
+    }
+  }
+}

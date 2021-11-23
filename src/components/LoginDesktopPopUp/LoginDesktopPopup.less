@@ -1,0 +1,82 @@
+.sign-up-text {
+  margin-top: 20px;
+}
+
+.forgot-password-block {
+  margin: calc(var(--f7-block-margin-vertical) * -1) 0 0 0;
+}
+
+.login-popup {
+  border-radius: 26px 26px 0 0 !important;
+
+  &__close svg {
+    width: 24px;
+    height: 24px;
+
+    path {
+      fill: var(--brand-primary-40) !important;
+    }
+  }
+
+  &__content {
+    padding: 0 32px;
+    margin-top: 0;
+  }
+
+  &__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-title {
+      .title-5();
+
+      margin: 28px 0 0 0;
+    }
+  }
+
+  &__logo {
+    @size: 160px;
+
+    width: @size;
+    height: @size;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  @media screen and (min-width: 630px) {
+    border-radius: 16px !important;
+
+    width: calc(var(--f7-popup-tablet-width) / 1.5) !important;
+    height: calc(var(--f7-popup-tablet-height) / 1.5) !important;
+    margin-left: calc(-1 * calc(var(--f7-popup-tablet-width) / 1.5) / 2) !important;
+    margin-top: calc(-1 * calc(var(--f7-popup-tablet-height) / 1.5) / 2) !important;
+
+    &__page .page-content {
+      padding-top: 56px;
+    }
+
+    &__navbar {
+      height: 56px;
+    }
+
+    &__top {
+      flex-direction: row;
+      margin: 0;
+      padding: 0;
+
+      &-title {
+        margin: 0;
+      }
+
+      i {
+        display: none;
+      }
+    }
+
+    &__list {
+      margin-top: 16px;
+    }
+  }
+}

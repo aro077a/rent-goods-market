@@ -1,0 +1,66 @@
+#payment_card_create {
+  border-radius: 15px;
+  height: 580px;
+  .credit-card-list-item {
+    .card-type {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 32px;
+      height: 32px;
+      padding-top: 1px;
+    }
+
+    .input-clear-button {
+      right: 48px;
+    }
+  }
+}
+
+.credit-card-list {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.credit-card-row {
+  display: flex;
+}
+
+.credit-card-navbar {
+  border-bottom: 1px solid #ededed;
+}
+
+.credit-card-checkbox-container {
+  display: flex;
+  margin-left: 10px;
+  & label {
+    margin-right: 10px;
+  }
+}
+
+.credit-card-button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 24px;
+}
+
+.ios {
+  #payment_card_create {
+    border-radius: 15px;
+    height: 580px;
+    .credit-card-list-item {
+      .card-type {
+        width: 44px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+      }
+
+      .input-clear-button {
+        right: 48px;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.like-button {
+  position: relative;
+  background: none;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  height: fit-content;
+
+  &.material {
+    color: var(--f7-theme-color);
+  }
+
+  .ic-wish.active {
+    background-color: var(--f7-theme-color);
+  }
+
+  .ic-wish-shadow.active {
+    width: 24px;
+    height: 24px;
+
+    path {
+      fill: var(--f7-theme-color);
+    }
+  }
+}

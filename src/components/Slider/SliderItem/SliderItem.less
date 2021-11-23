@@ -1,0 +1,35 @@
+.slider-item {
+  &_top {
+    height: 160px !important;
+    padding: 0 !important;
+
+    @media (min-width: 1024px) {
+      height: 240px !important;
+    }
+
+    @media (min-width: 1200px) {
+      height: 360px !important;
+    }
+  }
+
+  &_big {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: var(--base-20);
+    margin-bottom: 0;
+    margin-right: 8px !important;
+  }
+
+  &_small {
+    width: 160px;
+    background: var(--base-20);
+    border-radius: 16px;
+    margin-right: 17px !important;
+
+    @media screen and (min-width: 567px) {
+      width: 100%;
+      background: transparent;
+    }
+  }
+}

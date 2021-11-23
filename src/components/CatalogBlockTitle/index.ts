@@ -1,0 +1,1 @@
+export { CatalogBlockTitle } from "./CatalogBlockTitle";

@@ -1,0 +1,121 @@
+.slider-image-uploader {
+  --slider-image-uploader-slide-background-color: var(--base-20);
+
+  overflow: show;
+  padding: 0 calc(var(--f7-block-padding-vertical) + var(--f7-safe-area-right)) 0
+    calc(var(--f7-block-padding-vertical) + var(--f7-safe-area-left));
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: var(--f7-block-padding-horizontal);
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #f0f0f0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: var(--slider-image-uploader-slide-background-color);
+    width: calc(50% - var(--f7-block-padding-horizontal) / 2 + var(--f7-safe-area-left));
+    margin: var(--f7-block-padding-vertical) 0 0 0;
+    padding: 0;
+
+    .input-clear-button {
+      visibility: visible;
+      opacity: 1;
+      position: absolute;
+      top: 1px;
+      right: -8px;
+      pointer-events: painted;
+    }
+    .icon {
+      width: 33px;
+      margin-bottom: 19px;
+    }
+
+    .content {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+
+      .subtitle {
+        //styleName: 2. Subtitle / Subtitle 1 (16 B);
+        position: absolute;
+        width: 416px;
+        height: 24px;
+        left: calc(50% - 416px / 2);
+        top: calc(50% - 24px / 2 + 20px);
+        margin-top: 10px;
+        /* 2. Subtitle / Subtitle 1 (16 B) */
+
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+        letter-spacing: 0.25px;
+        color: var(--base-110);
+      }
+      .title {
+        //styleName: 4. Captions / Caption def;
+        position: absolute;
+        width: 416px;
+        height: 16px;
+        left: calc(50% - 416px / 2);
+        top: calc(50% - 16px / 2 + 40px);
+        margin-top: 10px;
+
+        /* 4. Captions / Caption def */
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+
+        text-align: center;
+        letter-spacing: 0.14px;
+        color: var(--base-80);
+      }
+    }
+  }
+
+  .swiper-slide:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  &__hidden-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+.theme-dark,
+&.theme-dark {
+  .slider-image-uploader {
+    --slider-image-uploader-slide-background-color: #1c1c1c;
+
+    .swiper-slide .content .icon {
+      opacity: 0.3;
+    }
+  }
+}

@@ -1,0 +1,1414 @@
+{
+  "orderList": [
+    {
+      "uid": "7217a678-821f-4878-8c84-3d7bcca68d20",
+      "orderNumber": "INV-100-004-321-39",
+      "orderDate": "20210309135743",
+      "status": "RF",
+      "statusDescription": "Refunded",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 0.5,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "e0567bcd-7002-473d-a0ac-5a6967cc038a",
+          "name": "Gamepad",
+          "quantity": 1,
+          "price": 0.5,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_d5b8d840-1b21-4a7d-b881-618d36e293e6?generation=1611595479235861&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "61ee9d56-2d0c-4e92-825a-400c42edf95a",
+      "orderNumber": "INV-100-004-320-38",
+      "orderDate": "20210304141809",
+      "status": "RP",
+      "statusDescription": "Partially Refunded",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 18.85,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "6b704765-6791-45aa-b392-4d0eafd2a602",
+          "name": "Розы",
+          "quantity": 1,
+          "price": 18.85,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_b85dd54f-830a-4df4-a72a-b0792e6826a3?generation=1611238411895577&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "2e2c6fd6-ca0e-4848-a1d2-55646ecbadd9",
+      "orderNumber": "INV-100-004-318-44",
+      "orderDate": "20210224173408",
+      "status": "PA",
+      "statusDescription": "Awaiting Fullfilment",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 2,
+      "amount": 1.99,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "cca3932c-b420-4d47-8318-832c00a40483",
+          "name": "Лимонад",
+          "quantity": 1,
+          "price": 1.0,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_78113822-00b5-4cea-a0e1-c4b5e7035622?generation=1614156763175861&alt=media"
+        },
+        {
+          "productUid": "d4206701-724f-4218-8474-771613ad0b21",
+          "name": "Магнитик",
+          "quantity": 1,
+          "price": 0.99,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_5c8973c2-1ab4-4e73-a917-725fd4066980?generation=1614185988146342&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "7a5a77d3-e603-4039-8878-ba41db500ac9",
+      "orderNumber": "INV-100-004-314-40",
+      "orderDate": "20210224080745",
+      "status": "PA",
+      "statusDescription": "Awaiting Fullfilment",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 80.0,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "a89c4488-b120-4ab0-a022-e295c8c5d476",
+          "name": "Гидрант",
+          "quantity": 2,
+          "price": 40.0,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_31c2395d-fbfc-4717-972d-cc9e78e87594?generation=1611157471556811&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "49c884dd-90be-4fbe-9ec9-dd680c1d1697",
+      "orderNumber": "INV-100-004-313-39",
+      "orderDate": "20210211084033",
+      "status": "PA",
+      "statusDescription": "Awaiting Fullfilment",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 40.0,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "a89c4488-b120-4ab0-a022-e295c8c5d476",
+          "name": "Гидрант",
+          "quantity": 1,
+          "price": 40.0,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_31c2395d-fbfc-4717-972d-cc9e78e87594?generation=1611157471556811&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "f012f732-3435-4394-abd5-b4317565cb94",
+      "orderNumber": "INV-100-004-312-38",
+      "orderDate": "20210211081818",
+      "status": "PA",
+      "statusDescription": "Awaiting Fullfilment",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 40.0,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "a89c4488-b120-4ab0-a022-e295c8c5d476",
+          "name": "Гидрант",
+          "quantity": 1,
+          "price": 40.0,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_31c2395d-fbfc-4717-972d-cc9e78e87594?generation=1611157471556811&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "ae63708f-882f-4baf-ad91-79c408df0f16",
+      "orderNumber": "INV-100-004-309-43",
+      "orderDate": "20210121142503",
+      "status": "RF",
+      "statusDescription": "Refunded",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 40.0,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "a89c4488-b120-4ab0-a022-e295c8c5d476",
+          "name": "Гидрант",
+          "quantity": 1,
+          "price": 40.0,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_31c2395d-fbfc-4717-972d-cc9e78e87594?generation=1611157471556811&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "postalCode": "00000000",
+        "city": "Riga",
+        "address": "---",
+        "fullAddress": "---, Riga, 00000000, , Latvia"
+      }
+    },
+    {
+      "uid": "27d2dd6b-805d-4d34-b747-daafa515f323",
+      "orderNumber": "INV-100-004-304-38",
+      "orderDate": "20210120160423",
+      "status": "RP",
+      "statusDescription": "Partially Refunded",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 40.0,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "a89c4488-b120-4ab0-a022-e295c8c5d476",
+          "name": "Гидрант",
+          "quantity": 1,
+          "price": 40.0,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_31c2395d-fbfc-4717-972d-cc9e78e87594?generation=1611157471556811&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "99fd436a-b9c1-4b62-80b9-32bfb167727e",
+      "orderNumber": "INV-100-004-301-35",
+      "orderDate": "20210119113319",
+      "status": "RF",
+      "statusDescription": "Refunded",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 199.95,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "0e97e20d-3f9d-40d5-856a-5561d4cc5b7a",
+          "name": "Навигатор",
+          "quantity": 1,
+          "price": 199.95,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_ff4dad04-165c-4360-9872-afd30b164b15?generation=1607696845727432&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "55ab2eec-e594-439b-8a91-280a66db48f2",
+      "orderNumber": "INV-100-004-263-46",
+      "orderDate": "20201204094650",
+      "status": "RF",
+      "statusDescription": "Refunded",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 1.25,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "1b9c2d8a-13ae-4872-b436-98aad4f8a35c",
+          "name": "Бутер",
+          "quantity": 1,
+          "price": 1.25,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_7ea926f3-e3c1-4cd2-948d-7e16018b1b7b?generation=1606896286315953&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "52d6d06c-9267-4724-970d-56e8c0bb8915",
+      "orderNumber": "INV-100-004-257-48",
+      "orderDate": "20201202085900",
+      "status": "RF",
+      "statusDescription": "Refunded",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 1.25,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "1b9c2d8a-13ae-4872-b436-98aad4f8a35c",
+          "name": "Бутер",
+          "quantity": 1,
+          "price": 1.25,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_7ea926f3-e3c1-4cd2-948d-7e16018b1b7b?generation=1606896286315953&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "0485b865-b53d-45ec-a805-580b05136042",
+      "orderNumber": "INV-100-004-252-43",
+      "orderDate": "20201201092420",
+      "status": "RF",
+      "statusDescription": "Refunded",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 14.86,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "0e0174a0-5904-4545-90b2-a33e5758da7b",
+          "name": "Пирог и кофе",
+          "quantity": 1,
+          "price": 14.86,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_1659c610-e9f5-4bf5-be68-e7ecd620c408?generation=1603188953167254&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "d838e3ef-80f9-426b-92a0-131a9b058825",
+      "orderNumber": "INV-100-004-251-42",
+      "orderDate": "20201130133733",
+      "status": "RF",
+      "statusDescription": "Refunded",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 14.86,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "0e0174a0-5904-4545-90b2-a33e5758da7b",
+          "name": "Пирог и кофе",
+          "quantity": 1,
+          "price": 14.86,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_1659c610-e9f5-4bf5-be68-e7ecd620c408?generation=1603188953167254&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "34e6d347-1d7b-4b6c-b1a3-74dbf9f7bd7c",
+      "orderNumber": "INV-100-004-235-42",
+      "orderDate": "20201119153142",
+      "status": "RF",
+      "statusDescription": "Refunded",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 14.86,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "0e0174a0-5904-4545-90b2-a33e5758da7b",
+          "name": "Пирог и кофе",
+          "quantity": 1,
+          "price": 14.86,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_1659c610-e9f5-4bf5-be68-e7ecd620c408?generation=1603188953167254&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "f6edd09d-535c-4ed9-ba1c-3305b9970c5b",
+      "orderNumber": "INV-100-004-234-41",
+      "orderDate": "20201119150012",
+      "status": "PA",
+      "statusDescription": "Awaiting Fullfilment",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 14.86,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "0e0174a0-5904-4545-90b2-a33e5758da7b",
+          "name": "Пирог и кофе",
+          "quantity": 1,
+          "price": 14.86,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_1659c610-e9f5-4bf5-be68-e7ecd620c408?generation=1603188953167254&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "postalCode": "00000000",
+        "city": "Riga",
+        "address": "Str. 108",
+        "fullAddress": "Str. 108, Riga, 00000000, , Latvia"
+      }
+    },
+    {
+      "uid": "58eb70e6-a77a-4138-a47e-a51f45e55476",
+      "orderNumber": "INV-100-004-233-40",
+      "orderDate": "20201119100312",
+      "status": "PA",
+      "statusDescription": "Awaiting Fullfilment",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 24.85,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "0e0174a0-5904-4545-90b2-a33e5758da7b",
+          "name": "Пирог и кофе",
+          "quantity": 1,
+          "price": 14.86,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_1659c610-e9f5-4bf5-be68-e7ecd620c408?generation=1603188953167254&alt=media"
+        }
+      ],
+      "shippingItems": [
+        {
+          "name": "Fixed Price",
+          "price": 9.99
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "9fbd01b9-c366-4269-80e9-6b63665f1b0b",
+      "orderNumber": "INV-100-004-220-35",
+      "orderDate": "20201116141155",
+      "status": "PA",
+      "statusDescription": "Awaiting Fullfilment",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 259.99,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "901c8e71-81a1-415c-8952-298137a51a0a",
+          "name": "Сумка",
+          "quantity": 1,
+          "price": 250.0,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_293ac317-56fd-4e25-9adf-96445e2120a0?generation=1605198810916918&alt=media"
+        }
+      ],
+      "shippingItems": [
+        {
+          "name": "Fixed Price",
+          "price": 9.99
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "postalCode": "1021",
+        "city": "Riga",
+        "address": "Praulienas iela 10",
+        "fullAddress": "Praulienas iela 10, Riga, 1021, , Latvia"
+      }
+    },
+    {
+      "uid": "880b44a3-3628-465b-b472-223a7c31c883",
+      "orderNumber": "INV-100-004-219-42",
+      "orderDate": "20201116123223",
+      "status": "CA",
+      "statusDescription": "Cancelled",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 110.67,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "John Galt",
+        "phone": "37129166065"
+      },
+      "items": [
+        {
+          "productUid": "5d216b82-32fc-4eaf-96fb-b4841a39ca32",
+          "name": "Тумбочка",
+          "quantity": 2,
+          "price": 50.34,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_200-000-374-45_cfef74ab-473b-43c0-b360-2a91b3f306dd?generation=1599750318948348&alt=media"
+        }
+      ],
+      "shippingItems": [
+        {
+          "name": "Fixed Price",
+          "price": 9.99
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "5e3fbf56-3a72-416b-a478-2c170188aa0a",
+      "orderNumber": "INV-100-004-218-41",
+      "orderDate": "20201116123115",
+      "status": "PA",
+      "statusDescription": "Awaiting Fullfilment",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 24.85,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "0e0174a0-5904-4545-90b2-a33e5758da7b",
+          "name": "Пирог и кофе",
+          "quantity": 1,
+          "price": 14.86,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_1659c610-e9f5-4bf5-be68-e7ecd620c408?generation=1603188953167254&alt=media"
+        }
+      ],
+      "shippingItems": [
+        {
+          "name": "Fixed Price",
+          "price": 9.99
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "6b26f770-06d1-4666-956c-6a232d093630",
+      "orderNumber": "INV-100-004-215-38",
+      "orderDate": "20201113072433",
+      "status": "PA",
+      "statusDescription": "Awaiting Fullfilment",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 24.85,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "0e0174a0-5904-4545-90b2-a33e5758da7b",
+          "name": "Пирог и кофе",
+          "quantity": 1,
+          "price": 14.86,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_1659c610-e9f5-4bf5-be68-e7ecd620c408?generation=1603188953167254&alt=media"
+        }
+      ],
+      "shippingItems": [
+        {
+          "name": "Fixed Price",
+          "price": 9.99
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "6509e54b-8456-438e-90d9-c4c76fe3be28",
+      "orderNumber": "INV-100-004-214-37",
+      "orderDate": "20201113072116",
+      "status": "PA",
+      "statusDescription": "Awaiting Fullfilment",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 60.33,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "John Galt",
+        "phone": "37129166065"
+      },
+      "items": [
+        {
+          "productUid": "5d216b82-32fc-4eaf-96fb-b4841a39ca32",
+          "name": "Тумбочка",
+          "quantity": 1,
+          "price": 50.34,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_200-000-374-45_cfef74ab-473b-43c0-b360-2a91b3f306dd?generation=1599750318948348&alt=media"
+        }
+      ],
+      "shippingItems": [
+        {
+          "name": "Fixed Price",
+          "price": 9.99
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "56d939a3-c447-484c-8140-871158aa2f18",
+      "orderNumber": "INV-100-004-208-39",
+      "orderDate": "20201112153518",
+      "status": "RF",
+      "statusDescription": "Refunded",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 24.85,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "0e0174a0-5904-4545-90b2-a33e5758da7b",
+          "name": "Пирог и кофе",
+          "quantity": 1,
+          "price": 14.86,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_1659c610-e9f5-4bf5-be68-e7ecd620c408?generation=1603188953167254&alt=media"
+        }
+      ],
+      "shippingItems": [
+        {
+          "name": "Fixed Price",
+          "price": 9.99
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "e7ff66e8-a748-4085-a93b-54766b7c2fd4",
+      "orderNumber": "INV-100-004-195-51",
+      "orderDate": "20201112111412",
+      "status": "PA",
+      "statusDescription": "Awaiting Fullfilment",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 60.33,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "John Galt",
+        "phone": "37129166065"
+      },
+      "items": [
+        {
+          "productUid": "5d216b82-32fc-4eaf-96fb-b4841a39ca32",
+          "name": "Тумбочка",
+          "quantity": 1,
+          "price": 50.34,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_200-000-374-45_cfef74ab-473b-43c0-b360-2a91b3f306dd?generation=1599750318948348&alt=media"
+        }
+      ],
+      "shippingItems": [
+        {
+          "name": "Fixed Price",
+          "price": 9.99
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "040f0a16-c372-4c9d-bac5-ed81ccbd4494",
+      "orderNumber": "INV-100-004-194-50",
+      "orderDate": "20201112101950",
+      "status": "RF",
+      "statusDescription": "Refunded",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 60.33,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "John Galt",
+        "phone": "37129166065"
+      },
+      "items": [
+        {
+          "productUid": "5d216b82-32fc-4eaf-96fb-b4841a39ca32",
+          "name": "Тумбочка",
+          "quantity": 1,
+          "price": 50.34,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_200-000-374-45_cfef74ab-473b-43c0-b360-2a91b3f306dd?generation=1599750318948348&alt=media"
+        }
+      ],
+      "shippingItems": [
+        {
+          "name": "Fixed Price",
+          "price": 9.99
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "postalCode": "123",
+        "city": "Ventspils",
+        "address": "dsef",
+        "fullAddress": "dsef, Ventspils, 123, , Latvia"
+      }
+    },
+    {
+      "uid": "f8949325-bf45-4c73-9169-1fb0a74c1c27",
+      "orderNumber": "INV-100-004-193-49",
+      "orderDate": "20201112091734",
+      "status": "RP",
+      "statusDescription": "Partially Refunded",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 24.85,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "0e0174a0-5904-4545-90b2-a33e5758da7b",
+          "name": "Пирог и кофе",
+          "quantity": 1,
+          "price": 14.86,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_1659c610-e9f5-4bf5-be68-e7ecd620c408?generation=1603188953167254&alt=media"
+        }
+      ],
+      "shippingItems": [
+        {
+          "name": "Fixed Price",
+          "price": 9.99
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "3f5dfd35-3cd5-4385-89f0-d0ec5a5075a3",
+      "orderNumber": "INV-100-004-192-48",
+      "orderDate": "20201112091653",
+      "status": "RF",
+      "statusDescription": "Refunded",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 60.33,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "John Galt",
+        "phone": "37129166065"
+      },
+      "items": [
+        {
+          "productUid": "5d216b82-32fc-4eaf-96fb-b4841a39ca32",
+          "name": "Тумбочка",
+          "quantity": 1,
+          "price": 50.34,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_200-000-374-45_cfef74ab-473b-43c0-b360-2a91b3f306dd?generation=1599750318948348&alt=media"
+        }
+      ],
+      "shippingItems": [
+        {
+          "name": "Fixed Price",
+          "price": 9.99
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "29967b51-2e1f-40d4-94d9-c03d8f64c515",
+      "orderNumber": "INV-100-004-189-53",
+      "orderDate": "20201111164300",
+      "status": "CA",
+      "statusDescription": "Cancelled",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 60.33,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "John Galt",
+        "phone": "37129166065"
+      },
+      "items": [
+        {
+          "productUid": "5d216b82-32fc-4eaf-96fb-b4841a39ca32",
+          "name": "Тумбочка",
+          "quantity": 1,
+          "price": 50.34,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_200-000-374-45_cfef74ab-473b-43c0-b360-2a91b3f306dd?generation=1599750318948348&alt=media"
+        }
+      ],
+      "shippingItems": [
+        {
+          "name": "Fixed Price",
+          "price": 9.99
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "698ec103-2a24-40dd-9420-9b5afd1d04e3",
+      "orderNumber": "INV-100-004-183-47",
+      "orderDate": "20201111114042",
+      "status": "SE",
+      "statusDescription": "Awaiting Payment",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 60.33,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "John Galt",
+        "phone": "37129166065"
+      },
+      "items": [
+        {
+          "productUid": "5d216b82-32fc-4eaf-96fb-b4841a39ca32",
+          "name": "Тумбочка",
+          "quantity": 1,
+          "price": 50.34,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_200-000-374-45_cfef74ab-473b-43c0-b360-2a91b3f306dd?generation=1599750318948348&alt=media"
+        }
+      ],
+      "shippingItems": [
+        {
+          "name": "Fixed Price",
+          "price": 9.99
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "3f8332f3-f553-4fb6-89e7-3028bbaf611c",
+      "orderNumber": "INV-100-004-177-49",
+      "orderDate": "20201111102153",
+      "status": "SE",
+      "statusDescription": "Awaiting Payment",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 60.33,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "John Galt",
+        "phone": "37129166065"
+      },
+      "items": [
+        {
+          "productUid": "5d216b82-32fc-4eaf-96fb-b4841a39ca32",
+          "name": "Тумбочка",
+          "quantity": 1,
+          "price": 50.34,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_200-000-374-45_cfef74ab-473b-43c0-b360-2a91b3f306dd?generation=1599750318948348&alt=media"
+        }
+      ],
+      "shippingItems": [
+        {
+          "name": "Fixed Price",
+          "price": 9.99
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "postalCode": "00000000",
+        "city": "Riga",
+        "address": "Str. 108",
+        "fullAddress": "Str. 108, Riga, 00000000, , Latvia"
+      }
+    },
+    {
+      "uid": "1343c893-5160-42d4-9aaa-224575da1cff",
+      "orderNumber": "INV-100-004-174-46",
+      "orderDate": "20201107132541",
+      "status": "PA",
+      "statusDescription": "Awaiting Fullfilment",
+      "statusExtended": "SHP",
+      "statusExtendedDescription": "Shipped",
+      "statusExtendedDate": "20210301111443",
+      "estimatedDeliveryDate": "20210301000000",
+      "trackingNumber": "RA131020541LV",
+      "trackingCarrier": "China Post",
+      "trackingUrl": "https://t.17track.net/en#nums=RA131020541LV",
+      "productCount": 1,
+      "amount": 40.0,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Кузьма Висарионович"
+      },
+      "items": [
+        {
+          "productUid": "fee94cc2-c897-4d84-9925-f6a224f459fc",
+          "name": "Мяч",
+          "quantity": 4,
+          "price": 10.0,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-111-15_ba9b55b1-4255-4713-8804-e266a0e3af49?generation=1604398345685272&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "aabba628-8693-4685-98da-22f11900dd87",
+      "orderNumber": "INV-100-004-171-43",
+      "orderDate": "20201106145144",
+      "status": "PA",
+      "statusDescription": "Awaiting Fullfilment",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 10.0,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Кузьма Висарионович"
+      },
+      "items": [
+        {
+          "productUid": "fee94cc2-c897-4d84-9925-f6a224f459fc",
+          "name": "Мяч",
+          "quantity": 1,
+          "price": 10.0,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-111-15_ba9b55b1-4255-4713-8804-e266a0e3af49?generation=1604398345685272&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "60384abe-0c59-4e81-ac68-977002df7b71",
+      "orderNumber": "INV-100-004-168-48",
+      "orderDate": "20201106135402",
+      "status": "SE",
+      "statusDescription": "Awaiting Payment",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 100.0,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Кузьма Висарионович"
+      },
+      "items": [
+        {
+          "productUid": "fee94cc2-c897-4d84-9925-f6a224f459fc",
+          "name": "Мяч",
+          "quantity": 10,
+          "price": 10.0,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-111-15_ba9b55b1-4255-4713-8804-e266a0e3af49?generation=1604398345685272&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "3e621aa0-8433-4a51-a7a8-a0ad41df619a",
+      "orderNumber": "INV-100-004-166-46",
+      "orderDate": "20201106104644",
+      "status": "RF",
+      "statusDescription": "Refunded",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 69.99,
+      "currencyCode": "EUR",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Nadii Nadii",
+        "phone": "371291660608"
+      },
+      "items": [
+        {
+          "productUid": "69e0c1d6-5e22-4ac6-a91f-2a70d6c4615d",
+          "name": "Mobile phone Wigor H3 / Dual SIM",
+          "quantity": 1,
+          "price": 69.99,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_teta/o/PDP_100-000-107-19_a35e0fdf-3851-4b14-814c-3dbdd694c6d5?generation=1565703878607434&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "46e598dd-1bd7-4077-9eb4-cfa5ad35299d",
+      "orderNumber": "INV-100-004-165-45",
+      "orderDate": "20201106103703",
+      "status": "CA",
+      "statusDescription": "Cancelled",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 69.99,
+      "currencyCode": "EUR",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Nadii Nadii",
+        "phone": "371291660608"
+      },
+      "items": [
+        {
+          "productUid": "69e0c1d6-5e22-4ac6-a91f-2a70d6c4615d",
+          "name": "Mobile phone Wigor H3 / Dual SIM",
+          "quantity": 1,
+          "price": 69.99,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_teta/o/PDP_100-000-107-19_a35e0fdf-3851-4b14-814c-3dbdd694c6d5?generation=1565703878607434&alt=media"
+        }
+      ],
+      "shippingAddress": {
+        "countryCode": "LV",
+        "countryName": "Latvia",
+        "state": "Latvia",
+        "postalCode": "LV1021",
+        "city": "Riga",
+        "address": "Lubanas 125A",
+        "fullAddress": "Lubanas 125A, Riga, LV1021, Latvia, Latvia"
+      }
+    },
+    {
+      "uid": "52970929-ba43-4e13-b06d-7051e5970266",
+      "orderNumber": "INV-100-004-066-43",
+      "orderDate": "20200916082509",
+      "status": "CA",
+      "statusDescription": "Cancelled",
+      "trackingUrl": "https://t.17track.net/en#nums=null",
+      "productCount": 1,
+      "amount": 9.0,
+      "currencyCode": "USD",
+      "buyer": {
+        "name": "Test",
+        "surname": "Account",
+        "email": "test_dev_03@teta.com"
+      },
+      "seller": {
+        "name": "Sergej Lac",
+        "phone": "37129548213"
+      },
+      "items": [
+        {
+          "productUid": "2f72876e-c8be-4e05-8b2c-ec2e75165b57",
+          "name": "Деньги",
+          "quantity": 1,
+          "price": 9.0,
+          "imageUrl": "https://www.googleapis.com/download/storage/v1/b/productpicture_dev/o/PDP_100-000-159-31_6ef082f9-d1e9-429a-9e37-5a3f1f6a03fa?generation=1591363503118816&alt=media"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+#share-container {
+  padding: 20px;
+
+  .social-network {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  .share-buttons-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .url-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--base-40);
+    background-color: var(--base-20);
+    transition: all 0.4s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--base-40);
+    }
+
+    > .button.active-state {
+      background-color: var(--base-50);
+    }
+  }
+
+  .url {
+    padding: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .title {
+    padding-bottom: 20px;
+  }
+
+  .copy-btn {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}

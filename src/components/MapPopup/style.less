@@ -1,0 +1,79 @@
+.map-popup {
+  --f7-popup-border-radius: 15px;
+
+  .block {
+    margin: 0;
+    padding: 0;
+  }
+
+  .map-container {
+    height: 100%;
+
+    .google-map .gm-fullscreen-control {
+      left: 0 !important;
+      bottom: 0 !important;
+      top: auto !important;
+      right: auto !important;
+      margin-bottom: 35px !important;
+    }
+
+    .google-map .gm-bundled-control {
+      left: 0 !important;
+    }
+
+    .google-map .gm-bundled-control > div {
+      bottom: 0 !important;
+      top: auto !important;
+    }
+  }
+
+  .map-autocomplete {
+    padding: 15px;
+
+    .google-places__control {
+      padding: 5px;
+    }
+
+    .google-places__menu {
+      position: relative;
+    }
+  }
+
+  .set-location-container {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+
+    .set-location-btn {
+      display: inline-flex;
+      height: 48px;
+    }
+
+    .my-location {
+      float: right;
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      margin: 0 24px 0 -72px;
+      padding: 0;
+
+      i {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media (min-height: 630px) and (min-width: 630px) {
+  .map-popup {
+    width: calc(var(--f7-popup-tablet-width) / 1.5) !important;
+    height: calc(var(--f7-popup-tablet-height) / 1) !important;
+    margin-left: calc(
+      -1 * calc(var(--f7-popup-tablet-width) / 1.5) / 2
+    ) !important;
+    margin-top: calc(
+      -1 * calc(var(--f7-popup-tablet-height) / 1) / 2
+    ) !important;
+  }
+}

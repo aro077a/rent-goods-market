@@ -1,0 +1,25 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "allowJs": true,
+    "jsx": "react",
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "declaration": false,
+    "module": "commonjs",
+    "rootDir": "src",
+    "strict": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "target": "esnext"
+  }
+}

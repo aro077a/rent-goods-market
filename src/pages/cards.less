@@ -1,0 +1,35 @@
+#cards_page {
+  &.empty {
+    display: flex;
+    flex-direction: column;
+
+    .page-content {
+      margin-top: auto;
+      margin-bottom: auto;
+      height: auto;
+      max-height: 100%;
+      width: 100%;
+    }
+  }
+
+  .list {
+    .item-title {
+      font-weight: bold;
+    }
+
+    .item-footer {
+      font-weight: bold;
+      color: #949494;
+      font-size: 12px;
+      line-height: 16px;
+
+      .verified {
+        color: #36ac50;
+      }
+    }
+
+    .item-after {
+      color: var(--f7-theme-color);
+    }
+  }
+}

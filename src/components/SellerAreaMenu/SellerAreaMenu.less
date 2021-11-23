@@ -1,0 +1,45 @@
+.seller-nav-store-option {
+  display: none;
+  @media screen and (max-width: 567px) {
+    display: block;
+    i.icon {
+      margin: 0;
+    }
+  }
+}
+.seller-area-menu {
+  li {
+    cursor: pointer;
+    list-style: none;
+
+    &.active .item-content {
+      background-color: var(--f7-list-link-pressed-bg-color);
+    }
+  }
+
+  .account-stores-item {
+    display: none;
+  }
+}
+#seller_area_page {
+  .item-inner::before {
+    color: var(--base-70);
+  }
+  @media screen and (max-width: 567px) {
+    .SellerArea_Store {
+      display: none;
+    }
+    .seller-nav-store-option {
+      margin-right: 20px;
+    }
+    .seller-area-menu {
+      .account-stores-item {
+        display: block;
+        margin: 0 16px 40px;
+        &-content-main-head-actions-popover {
+          display: none;
+        }
+      }
+    }
+  }
+}

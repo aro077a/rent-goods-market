@@ -1,0 +1,43 @@
+.store-main-nav {
+  &-list {
+    &-item {
+      &.active {
+        border-bottom: 2px solid var(--brand-primary-40);
+
+        .item-inner {
+          .item-title {
+            color: var(--base-110);
+          }
+        }
+      }
+
+      &:hover {
+        .item-inner {
+          .item-title {
+            color: var(--base-110);
+          }
+        }
+      }
+
+      .item-inner {
+        cursor: pointer;
+
+        &::after {
+          display: none;
+        }
+
+        .item-title {
+          color: var(--base-80);
+        }
+      }
+    }
+
+    ul {
+      display: flex;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+}

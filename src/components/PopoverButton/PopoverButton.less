@@ -1,0 +1,54 @@
+.popower-button {
+  background-color: var(--base-20);
+  border-radius: 12px;
+  padding: 0 12px;
+
+  input {
+    max-width: 50px;
+    &[type="number"]::-webkit-inner-spin-button,
+    &[type="number"]::-webkit-outer-spin-button {
+      opacity: 0;
+    }
+  }
+
+  &-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0;
+    font-size: 15px;
+    color: var(--base-110);
+  }
+
+  &-left-icon {
+    margin: 0 5px 0 0 !important;
+  }
+
+  &-right-icon {
+    margin-right: 0 !important;
+  }
+
+  &.type-input {
+    position: relative;
+    span:first-child {
+      font-size: 15px;
+      color: var(--base-110);
+      margin-right: 10px;
+    }
+    span:last-child {
+      font-weight: 500;
+      font-size: 13px;
+      color: var(--brand-secondary-60);
+      &:hover {
+        color: var(--brand-secondary-90);
+      }
+    }
+    &::after {
+      content: "";
+      height: 2px;
+      background-color: var(--brand-secondary-60);
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,231 @@
+#account-store-page {
+  .account-stores-page-content-row {
+    max-width: unset;
+  }
+
+  .account-stores {
+    display: grid;
+  }
+}
+
+.account-stores-item {
+  background: var(--base-0);
+  border: 1px solid var(--base-30);
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 600px;
+  margin: 0 10px;
+  cursor: pointer;
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    &-img {
+      border-radius: 100px;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 72px;
+      height: 72px;
+      min-width: 72px;
+      background-size: 72px;
+      background-color: #f1f1f1;
+    }
+
+    &-main {
+      display: flex;
+      flex-direction: column;
+      width: calc(100% - 72px);
+      margin-left: 15px;
+
+      &-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-actions {
+          display: flex;
+          align-items: center;
+
+          &-share {
+            margin-right: 30px;
+            max-height: 20px;
+            &:hover {
+              cursor: pointer;
+              svg {
+                path {
+                  fill: var(--base-110);
+                }
+              }
+            }
+            svg {
+              path {
+                fill: var(--base-80);
+              }
+            }
+          }
+          &-popover {
+            max-width: 10px;
+            i {
+              color: var(--base-80);
+              margin: 0;
+            }
+          }
+        }
+
+        h2 {
+          margin: 0 0 5px 0;
+          color: var(--base-110);
+          font-size: 24px;
+          font-weight: 700;
+        }
+      }
+
+      &-status {
+        margin-bottom: 6px;
+      }
+
+      &-link {
+        p {
+          color: var(--base-70);
+          font-size: 15px;
+          margin: 0;
+          word-break: break-all;
+        }
+      }
+    }
+  }
+
+  &-bottom {
+    height: 40px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    > div {
+      margin-left: 10px;
+      a {
+        height: 40px;
+        border-radius: 26px;
+        &.disabled {
+          background-color: var(--base-20);
+        }
+      }
+    }
+    &-preview {
+      a {
+        background: var(--base-20);
+        color: var(--base-110);
+      }
+    }
+    &.mobile {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    &-item {
+      width: calc(100% - 20px);
+      max-width: unset;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    &-item {
+      padding: 16px;
+      &-content-main {
+        &-head {
+          h2 {
+            font-size: 22px;
+          }
+          &-actions {
+            &-share {
+              margin-right: 20px;
+            }
+          }
+        }
+        &-link {
+          font-size: 14px;
+          word-break: break-all;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 567px) {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
+    border: none;
+    background: var(--base-0);
+    padding: 16px;
+    &-content-main-head {
+      .store-share {
+        display: none;
+      }
+    }
+    &-bottom {
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+      > div {
+        span {
+          display: block;
+          font-size: 12px;
+        }
+      }
+      &-share {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .store-share {
+          margin: 0 0 10px 0;
+          font-size: 12px;
+        }
+      }
+      &-preview {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        svg {
+          margin: 0 0 10px 0;
+          height: 14px;
+          width: 21px;
+          path {
+            fill: var(--base-80);
+          }
+        }
+        a {
+          background-color: transparent;
+          // height: 22px;
+        }
+      }
+      &.mobile {
+        display: flex;
+        margin-top: 40px;
+        > a {
+          display: flex;
+          flex-direction: column;
+          height: auto;
+          padding: 0 10px;
+          path,
+          i {
+            color: var(--base-110);
+            fill: var(--base-110);
+          }
+          span {
+            margin: 6px 0 0 0;
+            line-height: 20px;
+            font-size: 12px;
+            color: var(--base-110);
+            max-width: 100px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+      }
+    }
+  }
+}

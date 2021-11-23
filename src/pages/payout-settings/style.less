@@ -1,0 +1,247 @@
+#payout_settings_page {
+  .set-up-payout-block {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
+    a {
+      margin-top: 10px;
+      display: inline-flex;
+    }
+
+    p {
+      color: var(--base-80);
+    }
+  }
+
+  .block-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--f7-block-text-color);
+  }
+
+  @media (min-width: 568px) {
+    .payout-settings {
+      width: 568px;
+      margin: 0 auto;
+    }
+
+    .edit-button {
+      float: right;
+      margin: 6px 0 0;
+      color: var(
+        --f7-navbar-link-color,
+        var(--f7-bars-link-color, var(--f7-theme-color))
+      ) !important;
+    }
+
+    .payout-destinations-buttons {
+      display: inline-flex;
+      border: 1px solid #e6e6e6;
+      border-radius: 12px;
+
+      .button {
+        display: inline-flex;
+        color: var(--base-110);
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 32px;
+        height: 80px;
+        margin: 0;
+        padding: 0 30px;
+
+        svg {
+          margin-right: 14px;
+        }
+      }
+
+      .button.active-state {
+        background: #e6e6e6;
+      }
+
+      .button:first-child {
+        border-right: 1px solid #e6e6e6;
+      }
+    }
+
+    .segmented-highlight {
+      display: none;
+    }
+
+    .toast {
+      width: 400px !important;
+      left: calc(calc(100% - 400px) / 2) !important;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .page-content > .row {
+      max-width: none;
+    }
+
+    .payout-settings {
+      --width: 968px;
+      margin: 0 auto;
+    }
+  }
+}
+
+#edit_bank_account_payout_settings_page,
+#edit_bank_card_payout_settings_page {
+  .description {
+    color: var(--base-80);
+  }
+
+  .block-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--f7-block-text-color);
+  }
+
+  .item-radio .item-title {
+    font-size: 14px;
+  }
+
+  .submit-button {
+    margin: 0 16px;
+    padding: 8px 16px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  @media (min-width: 568px) {
+    .payout-settings {
+      width: 568px;
+      margin: 0 auto;
+    }
+
+    .toast {
+      width: 400px !important;
+      left: calc(calc(100% - 400px) / 2) !important;
+    }
+  }
+}
+
+#edit_bank_account_payout_settings_page {
+  .pseudo-input {
+    height: 5px;
+  }
+}
+
+#payout_settings_page,
+#edit_bank_card_payout_settings_page {
+  .stripe-card {
+    margin: 0 0 20px;
+    background: var(--base-10);
+    border: 1px solid var(--base-30);
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--base-110);
+
+    p {
+      margin: 0;
+    }
+
+    .external-account-status {
+      margin-left: 10px;
+      padding: 12px 8px;
+      border-radius: 2px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+
+      top: -15px;
+
+      &-NEW {
+        background: #e6e6e6;
+        color: #676767;
+      }
+
+      &-PEN {
+        background: rgba(220, 155, 28, 0.1);
+        color: #dc9b1c;
+      }
+
+      &-ACT {
+        background: rgba(54, 172, 80, 0.1);
+        color: #36ac50;
+      }
+
+      &-UNK {
+        background: rgba(227, 70, 70, 0.1);
+        color: #e34646;
+      }
+    }
+
+    .external-account-url {
+      margin-top: 10px;
+
+      span {
+        display: inline-flex;
+        max-width: 75%;
+        word-break: break-all;
+        color: #ef5d54;
+      }
+
+      .external-account-url-actions {
+        float: right;
+        text-align: right;
+
+        .copy-url {
+          height: 40px;
+        }
+
+        .renew-url {
+          margin-right: 20px;
+          color: var(--base-120);
+
+          i {
+            font-size: 20px;
+          }
+        }
+
+        @media (min-width: 568px) {
+          .copy-url,
+          .renew-url {
+            height: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .cards {
+    margin-top: 0;
+
+    .item-title,
+    .item-subtitle {
+      font-weight: bold;
+    }
+
+    .item-subtitle span {
+      font-weight: normal;
+    }
+  }
+}
+
+.open-edit-sheet {
+  color: var(
+    --f7-navbar-link-color,
+    var(--f7-bars-link-color, var(--f7-theme-color))
+  ) !important;
+  width: 32px !important;
+  margin-left: 12px !important;
+}
+
+.popover {
+  border: 1px solid #e6e6e6;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12), 0px 0px 0px rgba(0, 0, 0, 0.05),
+    0px 1px 1px rgba(0, 0, 0, 0.02);
+}

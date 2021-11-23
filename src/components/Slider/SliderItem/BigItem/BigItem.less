@@ -1,0 +1,78 @@
+.slider-item.slider-item_big {
+  .slider-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    border-radius: 22px 22px 0 0;
+    overflow: hidden;
+  }
+
+  .add-wish {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+  }
+
+  .chat-with-seller {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+  }
+
+  .header-image {
+    width: 100%;
+    z-index: -2;
+    box-sizing: border-box;
+    background: var(--big-slide-header-image-background-color);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 288px;
+    min-height: 288px;
+    position: relative;
+    padding: var(--f7-block-padding-vertical)
+      calc(var(--f7-block-padding-vertical) + var(--f7-safe-area-right))
+      var(--f7-block-padding-vertical)
+      calc(var(--f7-block-padding-vertical) + var(--f7-safe-area-left));
+  }
+
+  .info.block {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 16px 12px 20px;
+    width: 100%;
+
+    .title {
+      .body-6();
+      .cut-for-n-rows(2);
+
+      color: var(--base-110);
+      display: -webkit-box;
+      margin-bottom: calc(var(--f7-block-margin-vertical) / 2);
+    }
+
+    .category {
+      .subtitle-4();
+
+      color: var(--base-80);
+    }
+
+    .description {
+      .body-5();
+      .cut-for-n-rows(2);
+
+      color: var(--base-100);
+      margin: 0 0 12px 0;
+      height: 44px;
+    }
+  }
+
+  .slider-item_big__price {
+    margin-top: auto;
+  }
+}

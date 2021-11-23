@@ -1,0 +1,45 @@
+#wallet_page {
+  .item-media {
+    span {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .icon {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+
+  li.coins-item {
+    .item-media {
+      span {
+        background-color: var(--f7-theme-color);
+      }
+    }
+
+    .item-after {
+      color: var(--f7-theme-color);
+      font-weight: bold;
+    }
+  }
+
+  a[href="cards/"] {
+    .item-media {
+      span {
+        background-color: #71ad5c;
+      }
+    }
+  }
+
+  .currencies-item {
+    .item-after {
+      font-weight: 500;
+      color: var(--f7-theme-color);
+    }
+  }
+}

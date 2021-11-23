@@ -1,0 +1,127 @@
+.button-selector {
+  background-color: #e6e6e6;
+  border-radius: 12px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 380px;
+  height: 36px;
+
+  .button-selector-arrow-icon {
+    margin-right: 0;
+  }
+}
+
+.width {
+  width: 328px;
+}
+
+.out-of-stock {
+  justify-content: center;
+}
+
+.undelivered {
+  justify-content: center;
+  background-color: #f8dada;
+}
+
+.selector-item {
+  display: flex !important;
+  flex-direction: row !important;
+  padding: 16px 14px;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.selected-icon {
+  color: #ef5d54;
+  margin-left: 25px;
+}
+
+.pick-up-icon {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow: hidden;
+}
+
+.selector-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #676767;
+}
+
+.selector-price {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-right: 10px;
+}
+
+.selector-text {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.selector-bold-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #515151;
+}
+
+.selector-red-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #e34646;
+}
+
+@media (max-width: 768px) {
+  .selector-red-text {
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #e34646;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+  }
+  .count-stepper {
+    display: none;
+  }
+}

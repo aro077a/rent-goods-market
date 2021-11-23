@@ -1,0 +1,12 @@
+body {
+  overflow: auto;
+  padding: 0 !important;
+}
+
+.framework7-root {
+  overflow: auto !important;
+}
+
+.view.view-main {
+  overflow: auto !important;
+}

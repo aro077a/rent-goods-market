@@ -1,0 +1,312 @@
+@import url("./light-theme.less");
+@import url("./dark-theme.less");
+
+/* iOS Cordova Tweak */
+.device-cordova.device-ios {
+  height: 100vh;
+}
+
+@--f7-theme-color: var(--brand-primary-40);
+
+/* Your app custom styles here */
+:root {
+  --f7-theme-color: var(--brand-primary-40);
+  --f7-theme-color-rgb: 239, 93, 84;
+  --f7-theme-color-shade: var(--brand-primary-60);
+  --f7-theme-color-tint: var(--f7-theme-color-shade);
+
+  --f7-button-fill-bg-color: var(--brand-primary-40);
+  --f7-button-pressed-bg-color: var(--brand-primary-60);
+  --f7-button-raised-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12), 0px 0px 0px rgba(0, 0, 0, 0.05),
+    0px 1px 1px rgba(0, 0, 0, 0.02);
+  --f7-button-raised-pressed-box-shadow: var(--f7-button-raised-box-shadow);
+  --f7-button-text-transform: none;
+  --f7-button-large-text-transform: none;
+  --f7-button-text-color: #232323;
+  --f7-button-font-size: 16px;
+  --f7-button-large-height: 52px;
+  --f7-button-height: 36px;
+  --f7-button-large-font-size: 18px;
+
+  --f7-bars-bg-color: #fcfcfc;
+  /*
+  --f7-bars-bg-color-rgb: 252, 252, 252;
+  --f7-toolbar-bg-color : var(--f7-bars-bg-color);
+  --f7-navbar-bg-color  : var(--f7-bars-bg-color);
+  */
+  --f7-page-bg-color: var(--f7-bars-bg-color);
+
+  --f7-block-title-medium-font-size: 20px;
+  --f7-block-title-medium-text-color: #202020;
+  --f7-block-title-medium-font-weight: bold;
+  --f7-block-title-medium-line-height: 1.3;
+
+  --f7-searchbar-backdrop-bg-color: rgba(255, 255, 255, 0.25);
+  --f7-toggle-active-color: var(--f7-theme-color);
+  --f7-navbar-link-color: #1a1a1a;
+
+  --f7-text-color: #1a1a1a;
+  --f7-list-item-subtitle-text-color: #949494;
+
+  --f7-block-title-large-text-color: var(--base-110);
+
+  @media (max-width: 568px) {
+    .navbar .right a {
+      color: var(--f7-theme-color);
+    }
+  }
+
+  --f7-block-margin-vertical: 16px;
+}
+
+.theme-dark,
+&.theme-dark {
+  --f7-navbar-link-color: #747474;
+  --f7-toolbar-bg-color: none;
+}
+
+.md {
+  :root {
+    --f7-navbar-height: 56px;
+  }
+}
+
+.icon-24 {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.navbar {
+  .profile-link {
+    &.link {
+      &::before {
+        display: none;
+      }
+    }
+    .avatar {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+
+.button {
+  display: flex;
+
+  .icon {
+    margin: 0 var(--f7-button-padding-horizontal);
+  }
+}
+
+/*
+  Fix .item-content > ... ... > .item-content double-paddiong
+*/
+.item-content {
+  .item-content {
+    padding-left: calc(0 + var(--f7-safe-area-left));
+    padding-right: calc(0 + var(--f7-safe-area-left));
+    .item-inner {
+      padding-right: calc(0 + var(--f7-safe-area-right));
+    }
+  }
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.a-pos {
+  position: absolute;
+}
+
+.no-margin-top {
+  margin-top: 0 !important;
+}
+
+.success-text {
+  color: var(--success-40);
+}
+
+.failed-text {
+  color: var(--danger-40);
+}
+
+/* pure-hidden-xs */
+@media screen and (max-width: 567px) {
+  .pure-visible-sm {
+    display: none !important;
+  }
+  .pure-visible-md {
+    display: none !important;
+  }
+  .pure-visible-lg {
+    display: none !important;
+  }
+  .pure-visible-xl {
+    display: none !important;
+  }
+  .pure-hidden-xs {
+    display: none !important;
+  }
+}
+/* pure-hidden-sm */
+@media screen and (min-width: 568px) and (max-width: 767px) {
+  .pure-visible-xs {
+    display: none !important;
+  }
+  .pure-visible-md {
+    display: none !important;
+  }
+  .pure-visible-lg {
+    display: none !important;
+  }
+  .pure-visible-xl {
+    display: none !important;
+  }
+  .pure-hidden-sm {
+    display: none !important;
+  }
+}
+/* pure-hidden-md */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .pure-visible-xs {
+    display: none !important;
+  }
+  .pure-visible-sm {
+    display: none !important;
+  }
+  .pure-visible-lg {
+    display: none !important;
+  }
+  .pure-visible-xl {
+    display: none !important;
+  }
+  .pure-hidden-md {
+    display: none !important;
+  }
+}
+/* pure-hidden-lg */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .pure-visible-xs {
+    display: none !important;
+  }
+  .pure-visible-sm {
+    display: none !important;
+  }
+  .pure-visible-md {
+    display: none !important;
+  }
+  .pure-visible-xl {
+    display: none !important;
+  }
+  .pure-hidden-lg {
+    display: none !important;
+  }
+}
+/* pure-hidden-xl */
+@media screen and (min-width: 1280px) {
+  .pure-visible-xs {
+    display: none !important;
+  }
+  .pure-visible-sm {
+    display: none !important;
+  }
+  .pure-visible-md {
+    display: none !important;
+  }
+  .pure-visible-lg {
+    display: none !important;
+  }
+  .pure-hidden-xl {
+    display: none !important;
+  }
+}
+
+// Helpers
+.no-min-width {
+  min-width: inherit !important;
+}
+
+.button.button-large {
+  & > i {
+    margin-left: 0;
+  }
+}
+
+.limiter(@media-query-min-width: 1279px; @max-width: 1300px) {
+  @media screen and (min-width: @media-query-min-width) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: @max-width;
+  }
+}
+
+.page-content {
+  & > .block,
+  & > .block-title,
+  & > .list,
+  & > .slider,
+  & > .data-table,
+  & > .row {
+    .limiter();
+  }
+}
+
+.popup.play-video-popup {
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #000000;
+
+  .page {
+    .navbar-bg {
+      background-color: #000000;
+    }
+
+    .page-content {
+      background-color: #000000;
+      overflow: hidden;
+    }
+  }
+}
+
+#play_video_sheet {
+  background-color: #000000;
+}
+
+@media (max-width: 768px) {
+  .feature-higlight-bold {
+    .item-link {
+      background-color: var(--warning-0);
+    }
+  }
+}
+
+hr {
+  border: 0;
+  border-top: var(--base-0);
+}
+
+.sorting-menu {
+  border: 1px solid #e6e6e6;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.sheet-backdrop {
+  z-index: 12000 !important;
+}
+
+.medium-small {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.highlight {
+  color: var(--base-80) !important;
+  font-weight: normal !important;
+}
+.list:not(.no-chevron) .item-link .item-inner:before {
+  color: none;
+}

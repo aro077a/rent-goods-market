@@ -1,0 +1,46 @@
+.start-chat-content {
+  .close {
+    color: var(--base-110);
+    float: right;
+  }
+
+  p {
+    color: var(--base-110);
+  }
+
+  .message {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .message div {
+    color: var(--base-110);
+    font-size: 16px;
+    height: 140px;
+
+    padding: 16px;
+    background: #f3f3f3;
+    border-radius: 12px;
+
+    span {
+      color: var(--f7-theme-color);
+    }
+  }
+
+  .buttons.block {
+    text-align: center;
+  }
+
+  .button {
+    display: inline-flex;
+  }
+}
+
+.theme-dark,
+&.theme-dark {
+  .start-chat-content {
+    .message div {
+      background: #414141;
+    }
+  }
+}

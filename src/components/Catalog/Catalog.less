@@ -1,0 +1,16 @@
+.catalog {
+  @media screen and (min-width: 1024px) {
+    padding: 0 calc(var(--f7-list-item-padding-horizontal) + var(--f7-safe-area-left)) 0
+      calc(var(--f7-list-item-padding-horizontal) + var(--f7-safe-area-right));
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+  }
+}

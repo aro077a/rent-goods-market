@@ -1,0 +1,120 @@
+@import "../../styles.less";
+
+.new-delivery {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  .navbar {
+    border-bottom: 1px solid var(--base-20);
+  }
+  .create-button {
+    width: 86px;
+    height: 40px;
+    border-radius: 26px;
+    margin: 0 24px 0;
+    background-color: var(--danger-90);
+  }
+  &__block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 10%;
+    min-width: 464px;
+    height: max-content;
+    &--subtitle {
+      margin: 0;
+    }
+    &--title {
+      margin-bottom: 4px;
+    }
+    .list {
+      width: 100%;
+      margin-bottom: 14px;
+      .list-items-disabled {
+        pointer-events: none;
+        border-radius: 10px;
+        background-color: var(--base-20);
+        list-style-type: none;
+        margin-top: 24px;
+        .item-inner {
+          padding: 0;
+          .item-title {
+            color: var(--base-80);
+            top: -15%;
+            padding-left: 12px;
+          }
+          .item-input-wrap::after {
+            content: none;
+          }
+        }
+      }
+    }
+    .card {
+      width: 100%;
+      border: 1px solid var(--base-30);
+      border-radius: 16px;
+      margin: 0;
+      padding: 16px 28px 28px;
+      margin-top: 27px;
+      max-width: 464px;
+      .card-header {
+        padding: 0;
+        .ship {
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 24px;
+        }
+        &::after {
+          content: none;
+        }
+        svg {
+          cursor: pointer;
+        }
+      }
+      .list {
+        .item-content {
+          padding: 0;
+          .item-inner {
+            div {
+              display: flex;
+              gap: 18px;
+            }
+          }
+        }
+        .block {
+          display: flex;
+          justify-content: space-between;
+          padding: 0;
+          gap: 25px;
+        }
+      }
+      .days-block {
+        span {
+          display: inline-block;
+        }
+      }
+      .country-block {
+        .list-items {
+          margin-top: 24px;
+        }
+        .pick-up__location {
+          display: flex;
+          justify-content: flex-start;
+          padding: 0;
+          gap: 10px;
+          margin-top: 16px;
+          color: var(--danger-90);
+          cursor: pointer;
+        }
+      }
+    }
+    &--button {
+      width: 100%;
+      border: 1px dashed var(--base-30);
+      padding: 24px;
+      display: flex;
+      justify-content: center;
+      color: var(--danger-90);
+    }
+  }
+}

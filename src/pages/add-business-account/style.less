@@ -1,0 +1,231 @@
+.panel-right {
+  width: 100vw;
+}
+
+#add_company_information_page,
+#add_store_information_page,
+#verify_business_account_page {
+  --f7-input-height: 26px;
+
+  @media screen and (max-width: 767px) {
+    .navbar .navbar-bg {
+      display: none;
+    }
+  }
+
+  .main-content {
+    max-width: 462px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+
+    @media screen and (max-width: 767px) {
+      padding: 8px 16px 40px;
+    }
+
+    h1,
+    h2,
+    p {
+      margin: 0;
+    }
+
+    h1,
+    h2 {
+      color: var(--base-110);
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 15px;
+      color: var(--base-70);
+    }
+  }
+}
+
+#add_company_information_page,
+#add_store_information_page {
+  @media screen and (max-width: 767px) {
+    .list {
+      // ios
+      ul {
+        &:before,
+        &:after {
+          display: none;
+        }
+      }
+
+      .item-inner:after {
+        display: none;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .page-content > .row {
+      max-width: none;
+    }
+  }
+
+  .next-button {
+    margin: 0 16px;
+
+    .next-icon {
+      margin: 0;
+      color: var(--f7-button-text-color, var(--f7-theme-color));
+    }
+  }
+
+  .menu-steps {
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+
+    .list li {
+      &.active {
+        background-color: var(--base-20);
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+      }
+
+      .item-inner {
+        justify-content: flex-start;
+        padding-left: 40px;
+
+        @media screen and (max-width: 1100px) {
+          padding-left: 0;
+        }
+
+        .step-passed-icon {
+          position: absolute;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .main-content {
+    position: relative; //for mobile next button
+    padding-top: 32px;
+    padding-right: 12.75%;
+
+    @media screen and (min-width: 768px) and (max-width: 1100px) {
+      padding-right: 0;
+    }
+
+    @media screen and (max-width: 767px) {
+      padding: 0 16px 40px;
+    }
+
+    > h1 {
+      font-size: 32px;
+
+      @media screen and (max-width: 767px) {
+        font-size: 24px;
+      }
+    }
+
+    .list {
+      margin: 0;
+
+      .inputs-row {
+        display: flex;
+        align-items: flex-start;
+
+        .custom-input {
+          flex: 1;
+          list-style: none; // ios
+
+          &::marker {
+            content: none;
+          }
+
+          &:nth-child(2) {
+            margin-left: 16px;
+          }
+        }
+
+        @media screen and (max-width: 767px) {
+          &.md-column {
+            flex-direction: column;
+            align-items: flex-start;
+
+            .custom-input,
+            .custom-dropdown-row {
+              width: 100%;
+
+              &:first-child {
+                margin-bottom: 16px;
+              }
+
+              &:nth-child(2) {
+                margin-left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .delete-link-button {
+      margin: 7px 0 24px;
+    }
+
+    .add-link-button,
+    .select-map-button {
+      justify-content: flex-start;
+      font-size: 15px;
+      padding: 0;
+      color: var(--brand-primary-40);
+    }
+
+    .footer-container {
+      z-index: 7;
+      background-color: var(--base-0);
+      position: fixed;
+      width: 100vw;
+      height: 58px;
+      left: 0;
+      bottom: 0;
+
+      .next-mobile {
+        bottom: 13.5px;
+      }
+    }
+
+    .pager-footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 25px;
+
+      > div {
+        width: 12px;
+        height: 5px;
+        border-radius: 35%;
+        background-color: var(--base-30);
+
+        &:first-child {
+          margin-right: 4px;
+        }
+
+        &.active {
+          background-color: var(--f7-theme-color);
+        }
+      }
+    }
+
+    .next-mobile {
+      position: absolute;
+      bottom: 25px;
+      right: 0;
+      padding: 0;
+      color: var(--f7-theme-color);
+
+      .next-icon {
+        margin-left: 0;
+      }
+    }
+  }
+}

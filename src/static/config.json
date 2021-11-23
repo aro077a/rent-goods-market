@@ -1,0 +1,57 @@
+{
+  "GoogleMapAPIkey": "AIzaSyD7A9WKXPE5z2ilRDUqwHewbU84s-txhvA",
+  "appCode": "qrentart",
+  "profileMenuItems": [
+    "SellerArea_Store",
+    "SellerArea",
+    "SellerArea_Products",
+    "SellerArea_Orders",
+    "--SellerArea_ProductPromotion",
+    "SellerArea_PayoutSettings",
+    "Switch_To_Business",
+    "MyWishList",
+    "MyWallet",
+    "MyWallet_Currencies",
+    "--MyWallet_Cards",
+    "--MyWallet_Coins",
+    "MyOrders",
+    "Transactions",
+    "--Notifications",
+    "--DarkMode",
+    "--Language",
+    "Verify",
+    "About"
+  ],
+  "categories": [
+    {
+      "id": "all_filtres",
+      "name": "All Filtres",
+      "color": "",
+      "icon": "ic-Filter"
+    },
+    {
+      "id": "20001",
+      "name": "Sculptures",
+      "color": "",
+      "icon": "ic-sculptures"
+    },
+    {
+      "id": "900",
+      "name": "Paitings",
+      "color": "",
+      "icon": "ic-pictures"
+    },
+    {
+      "id": "10159983",
+      "name": "Pictures",
+      "color": "",
+      "icon": "ic-photography"
+    },
+    {
+      "id": "20002",
+      "name": "Other Art",
+      "color": "",
+      "icon": "ic-other-art"
+    }
+  ]
+}

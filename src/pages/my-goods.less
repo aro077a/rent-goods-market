@@ -1,0 +1,33 @@
+.page[data-name="my-goods"] {
+  &.empty {
+    display: flex;
+    flex-direction: column;
+
+    .page-content {
+      margin-bottom: auto;
+      height: auto;
+      max-height: 100%;
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .page-content > .row {
+      max-width: none;
+    }
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar .right {
+    padding-right: 24px;
+
+    .import-button {
+      color: var(--base-100);
+      background-color: var(--base-20);
+    }
+  }
+}

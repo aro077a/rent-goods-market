@@ -1,0 +1,54 @@
+.select-customer-location-button-navbar {
+  display: inline;
+  height: unset !important;
+  line-height: unset !important;
+  &::before {
+    display: none;
+  }
+
+  svg {
+    min-width: 12px;
+    min-height: 14px;
+    width: 14px;
+  }
+
+  p.header-navbar-location-info {
+    display: flex;
+    margin: 0 0 0 10px;
+    align-items: center;
+    font-size: 15px;
+    color: var(--base-80);
+    flex-wrap: wrap;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 10px;
+    > p {
+      margin: 0 5px 0 0;
+      color: var(--base-80);
+      font-size: 13px;
+      font-weight: 400;
+      &:hover {
+        color: var(--base-90);
+      }
+      &:active {
+        color: var(--base-100);
+      }
+    }
+    span {
+      font-weight: 500;
+      font-size: 13px;
+      letter-spacing: 0.1px;
+      color: var(--base-80);
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      &:hover {
+        color: var(--base-90);
+      }
+      &:active {
+        color: var(--base-100);
+      }
+    }
+  }
+}
